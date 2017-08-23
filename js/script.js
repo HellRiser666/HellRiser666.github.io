@@ -1,12 +1,11 @@
 var $youdied = $("#youdied");
 var $hollow = $("#hollow");
 
-
 $youdied.hide();
 
 $hollow.click(function(){
     $(this).hide();
-    $youdied.fadeIn(4000);
+    $youdied.fadeIn(2000);
     $('#mp3').get(0).play();
 });
 
